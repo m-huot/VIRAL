@@ -1,4 +1,4 @@
-# Kd_AL
+# Overview of VIRAL
 
 Gausian process on top of embedding for Kd prediction using Biophysical model
 
