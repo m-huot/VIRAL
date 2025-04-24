@@ -1,7 +1,13 @@
 # Kd_AL
 
-Gausian process on top of embedding for Kd prediction
+Gausian process on top of embedding for Kd prediction using Biophysical model
 
 Data:
-- embeddings in data_bloom/embed_bloom
-- raw data to get kd values in kd_bloom/raw. These raw data are processed to obtain df_bloom_processed
+- Download data_bloom and data_desai folders to get ESM embeddings and Kd values.
+- Download script_results folder to get the variants selected by the model.
+- Put these folders in the root directory.
+
+
+
+
+![Schematic Overview](schematic.png)
