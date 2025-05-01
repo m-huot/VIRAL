@@ -7,7 +7,6 @@ import seaborn as sns
 import torch
 from sklearn.model_selection import train_test_split
 
-# Import required modules from src
 sys.path.append("../src")
 from utils import *
 from gaussian_process import *
