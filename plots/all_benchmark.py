@@ -147,16 +147,10 @@ def run_benchmark(nb_rounds):
                     def mutation_count(seq1, seq2):
                         return sum(1 for a, b in zip(seq1, seq2) if a != b)
 
-                    at_least_two_mutations_indexes = df[
-                        df["mutant_sequence"].apply(
-                            lambda seq: mutation_count(seq, WT) <= 15
-                        )
-                    ].index
+                    indexes = df.index
 
-                    if len(at_least_two_mutations_indexes) >= d:
-                        train_0_indexes = random.sample(
-                            list(at_least_two_mutations_indexes), d
-                        )
+                    if len(indexes) >= d:
+                        train_0_indexes = random.sample(list(indexes), d)
 
                     # Convert train_0_indexes to a set for faster operations
                     train_0_indexes = set(train_0_indexes)

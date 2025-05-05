@@ -78,7 +78,7 @@ class ActiveLearner(object):
         train_dataset0,
         dataset,
         strategy="random",
-        beta=0.5,
+        beta=0.2,
         percent=10,
         biomodel_f=bio_model,
         biomodel_var_f=bio_model_var,

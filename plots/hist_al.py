@@ -28,7 +28,7 @@ def main(EMBED):
     NB_POINTS = 50  # 50
     NB_ROUNDS = 10  # 10
     NB_RUNS = 10
-    NB_0 = 174
+    NB_0 = 165
 
     # Run active learning and save results
     get_hist_bloom(
