@@ -1,6 +1,7 @@
 # Overview of VIRAL
 
-Gausian process on top of embedding for Kd prediction using Biophysical model
+Machine-learning workflow that **identifies high-fitness viral protein variants with up to 5× fewer wet-lab measurements**.  
+The code base couples Bayesian active learning, Gaussian-process surrogate models and a biophysical fitness formulation. 
 
 Data:
 - Download data_bloom and data_desai folders to get ESM embeddings and Kd values.
