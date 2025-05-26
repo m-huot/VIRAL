@@ -3,7 +3,7 @@
 Machine-learning workflow that **identifies high-fitness viral protein variants with up to 5× fewer wet-lab measurements**.  
 The code base couples Bayesian active learning, Gaussian-process surrogate models and a biophysical fitness formulation. 
 
-Data:
+Data: https://doi.org/10.5281/zenodo.15511858 
 - Download data_bloom and data_desai folders to get ESM embeddings and Kd values.
 - Download script_results folder to get the variants selected by the model.
 - Put these folders in the root directory.
