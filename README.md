@@ -31,13 +31,17 @@ Data: https://doi.org/10.5281/zenodo.15511858
 If you use this toolkit in published work, please cite:
 
 ```bibtex
-@article{Huot2025,
-  author       = {Huot, Marian and Wang, Dianzhuo and Liu, Jiacheng and Shakhnovich, Eugene},
-  title        = {Few-Shot Viral Variant Detection via Bayesian Active Learning and Biophysics},
-  journal      = {bioRxiv},
-  year         = {2025},
-  elocation-id = {2025.03.12.642881},
-  doi          = {10.1101/2025.03.12.642881},
-  url          = {https://www.biorxiv.org/content/early/2025/03/13/2025.03.12.642881}
+@article{
+doi:10.1073/pnas.2503742122,
+author = {Marian Huot  and Dianzhuo Wang  and Jiacheng Liu  and Eugene I. Shakhnovich },
+title = {Predicting high-fitness viral protein variants with Bayesian active learning and biophysics},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {122},
+number = {24},
+pages = {e2503742122},
+year = {2025},
+doi = {10.1073/pnas.2503742122},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2503742122},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2503742122},
 }
 ```
